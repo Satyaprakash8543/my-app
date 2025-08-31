@@ -12,6 +12,7 @@ const Todos=()=>{
     const getInput=(event)=>{
         console.log(event.target.value);
         setinitial(event.target.value)
+        // console.log("This is Test")
     }
  const getData = ()=>{
       console.log(initial);
